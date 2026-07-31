@@ -37,16 +37,6 @@ Select a vanilla shelf and open its **Storage** tab. Enter a number beside any r
 
 If a shelf already contains more than the new maximum, pawns can haul the excess to another valid storage destination. RimWorld must have somewhere else that accepts the resource and has free space.
 
-## Source and building
-
-The source is available in [`Source/ShelfLimiter.cs`](Source/ShelfLimiter.cs). Compile it as a library against the RimWorld 1.6 versions of:
-
-- `Assembly-CSharp.dll`
-- `UnityEngine.CoreModule.dll`
-- `0Harmony.dll`
-
-Place the compiled output at `1.6/Assemblies/ShelfLimiter.dll`.
-
 ## Compatibility
 
 Shelf Limiter uses Harmony patches and does not replace vanilla definitions. Mods that heavily rewrite the storage filter interface or hauling logic may require compatibility work.
